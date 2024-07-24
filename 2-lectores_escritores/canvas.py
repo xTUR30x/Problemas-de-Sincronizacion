@@ -1,6 +1,8 @@
 import os
 import tkinter as tk
 from PIL import Image, ImageTk
+import multiprocessing
+from consts import TEXT
 
 # Imágenes
 READER_IMAGE = os.path.join("assets", "reader.png")
@@ -22,9 +24,13 @@ class Canvas:
 
         # Crear el canvas y las imágenes
         self.canvas = tk.Canvas(self.root, width=400, height=200)
+        self.canvas.configure(bg="white")
         self.canvas.pack()
         self.reader_image = self.canvas.create_image(100, 100, image=self.reader_img)
         self.writer_image = self.canvas.create_image(300, 100, image=self.sleep_img)
+
+        description_label = tk.Label(self.root, text=TEXT, wraplength=300)
+        description_label.pack(side=tk.BOTTOM, padx=10, pady=10)
 
     def get_canvas(self):
         return self.canvas

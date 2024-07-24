@@ -9,7 +9,7 @@ poder comer. Los filósofos pasan la mayor parte del tiempo pensando, pero
 de vez en cuando tienen hambre y deben comer, lo que requiere tomar los
 dos tenedores que están a sus lados.
 
-![Foto del Programa](1-filosofos_hambrientos/assets/ejemplo1.png)
+![Foto del Programa](1-filosofos_hambrientos/assets/ejemplo.png)
 
 ### Solución
 El problema radica en coordinar el acceso a los tenedores de manera que
@@ -26,6 +26,8 @@ compartido, por ejemplo, una base de datos o un archivo, al cual pueden
 acceder simultáneamente múltiples procesos. Algunos de estos procesos
 son escritores, que necesitan modificar el contenido del recurso, mientras
 que otros son lectores, que solo requieren leer el contenido sin alterarlo.
+
+![Foto del Programa](2-lectores_escritores/assets/ejemplo.png)
 
 ### Solución
 Para solucionar este problema podemos emplear 2 semáforos para
