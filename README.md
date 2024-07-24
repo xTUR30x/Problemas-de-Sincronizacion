@@ -1,5 +1,5 @@
 # Problemas-de-Sincronización
-Este proyecto tiene como objetivo mostrar la solución de algunos problemas clásicos de sincronización utilizando la librería "multiprocessing".
+Este proyecto tiene como objetivo mostrar la solución de algunos problemas clásicos de sincronización utilizando la librería "multiprocessing". La idea es mostrar de forma gráfica como funciona estos problemas, debido a que internamente estos problemas pasan desapercibido.
 
 ## 1 - Filósofos Comensales
 La situación se plantea de la siguiente manera: Hay 5 filósofos sentados
@@ -33,4 +33,11 @@ escritores y lectores no pueden trabajar al mismo tiempo.
 
 # Como Ejecutar
 Para ejecutar sería tan sencillo como clonar el repositorio, instalar las siguientes dependencias y por cada carpeta existe un archivo run.bat que permite la ejecución directa del programa.
+
+### Dependencias
+```python
+pip install multiprocessing
+pip install pillow
+```
+
 
