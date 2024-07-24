@@ -9,6 +9,8 @@ poder comer. Los filósofos pasan la mayor parte del tiempo pensando, pero
 de vez en cuando tienen hambre y deben comer, lo que requiere tomar los
 dos tenedores que están a sus lados.
 
+![Texto alternativo](1-filosofos_hambrientos/assets/ejemplo1.png)
+
 ### Solución
 El problema radica en coordinar el acceso a los tenedores de manera que
 ningún filósofo se quede esperando indefinidamente por los tenedores que
