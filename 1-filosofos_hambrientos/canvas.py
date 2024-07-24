@@ -1,5 +1,5 @@
 import os, math
-from helpers import NUM_FILOSOFOS
+from consts import NUM_FILOSOFOS, TEXT
 import tkinter as tk
 from PIL import Image, ImageTk
 
@@ -27,6 +27,11 @@ class Canvas:
         self.root.title("Problema de los Filósofos") 
         self.canvas = tk.Canvas(self.root, width=800, height=600)
         self.canvas.configure(bg="white")
+
+        # Agregar descripción en la parte inferior de la ventana
+        description_label = tk.Label(self.root, text=TEXT, wraplength=300)
+        description_label.pack(side=tk.BOTTOM, padx=10, pady=10)
+
 
     def load_resources(self):
          # Cargar las imágenes de los filósofos
