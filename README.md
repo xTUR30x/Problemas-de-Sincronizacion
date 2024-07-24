@@ -36,10 +36,15 @@ escritores y lectores no pueden trabajar al mismo tiempo.
 # Como Ejecutar
 Para ejecutar sería tan sencillo como clonar el repositorio, instalar las siguientes dependencias y por cada carpeta existe un archivo run.bat que permite la ejecución directa del programa.
 
+## Nota
+Cada problema al ejecutarse genera un archivo .log con el cual se puede apreciar el flujo del programa en detalle, al igual que en la consola también se puede apreciar la ejecución del mismo.
+
 ### Dependencias
 ```python
 pip install multiprocessing
 pip install pillow
 ```
+
+
 
 
