@@ -1,5 +1,5 @@
 # Problemas-de-Sincronización
-Este proyecto tiene como objetivo mostrar la solución de algunos problemas clásicos de sincronización utilizando la librería "multiprocessing".
+Este proyecto tiene como objetivo mostrar la solución de algunos problemas clásicos de sincronización utilizando la librería "multiprocessing". La idea es mostrar de forma gráfica como funciona estos problemas, debido a que internamente estos problemas pasan desapercibido.
 
 ## 1 - Filósofos Comensales
 La situación se plantea de la siguiente manera: Hay 5 filósofos sentados
